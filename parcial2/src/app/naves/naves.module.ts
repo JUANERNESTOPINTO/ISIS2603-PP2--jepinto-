@@ -5,10 +5,12 @@ import { NavesListComponent } from './naves-list/naves-list.component';
 
 @NgModule({
   imports: [
+    NavesListComponent,
     CommonModule
   ],
   exports: [NavesListComponent],
   declarations: [NavesListComponent]
 })
 export class NavesModule { }
+ 
 
